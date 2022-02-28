@@ -1,3 +1,4 @@
 # Gun-Knight
-SFML C++ Game \n
+SFML C++ Game
+
 Facebook: https://www.facebook.com/VietQuanDan/

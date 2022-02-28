@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{27684e08-dab5-448e-a6f7-311579d27152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStateManager">
+      <UniqueIdentifier>{86dd2730-8fe7-44a6-bf43-2ab2f3d201e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Component">
+      <UniqueIdentifier>{4f4a9a51-01cd-4733-8be9-87d5030edf3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{1636c659-dd94-4ae3-9d64-bb8614e6fbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Mob">
+      <UniqueIdentifier>{4da5c867-c6f9-4bfe-90da-33d3200ab131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Mob\Cobra">
+      <UniqueIdentifier>{e3e9d53a-a15e-4f72-9189-0395f3ed7d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Weapon">
+      <UniqueIdentifier>{940e6ecf-7303-4c65-846f-6ebbf69b859d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Player">
+      <UniqueIdentifier>{e25ae02b-5879-4fc0-aa5f-6f2063eac69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Map">
+      <UniqueIdentifier>{09e78d99-f9e6-49f6-b449-700d0c5a9de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Mob\Mage">
+      <UniqueIdentifier>{e01861e7-63ba-457d-bbef-afcebfb4c468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\UI">
+      <UniqueIdentifier>{1ce27cc4-e043-4ba9-b316-d3976bb521c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Coin">
+      <UniqueIdentifier>{520e59b1-cd0f-468a-a41c-c8abcfcc4a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Exp">
+      <UniqueIdentifier>{4b7313fe-1728-4738-824c-35a515efb6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Mob\Imp">
+      <UniqueIdentifier>{7ea6a9ac-88aa-4213-97b2-92bfd036998a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\ShopItem">
+      <UniqueIdentifier>{28bd284b-3eff-442c-8b5c-42a2832f3254}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateMachine.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateBase.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSIntro.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSMenu.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSEnd.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSGameplay.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSSetting.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Animation.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\HitBox.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GameButton.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Bullet.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\HitCircle.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\Collision.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\Random.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\ResourceManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\WindowConnector.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\GameConnector.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\WavesManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\IMob.cpp">
+      <Filter>Source Files\GameObjects\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Cobra.cpp">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Cobra_SAttack.cpp">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Cobra_SDeath.cpp">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Cobra_SIdle.cpp">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Cobra_SRun.cpp">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Weapon.cpp">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\WPSword.cpp">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Player.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\PSIdle.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\PSRun.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\MiniMap.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\TiledMap.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\MobsManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\BulletsManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Room.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Hall.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Tile.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Shoot.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\TileBox.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Mage.cpp">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Mage_SAttack.cpp">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Mage_SDeath.cpp">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Mage_SIdle.cpp">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Mage_SRun.cpp">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Cobra_SSpawn.cpp">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Mage_SSpawn.cpp">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\UI.cpp">
+      <Filter>Source Files\GameObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\WPGun.cpp">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSPlay.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSLobby.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\CoinsManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Coin.cpp">
+      <Filter>Source Files\GameObjects\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Exp.cpp">
+      <Filter>Source Files\GameObjects\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\ExpsManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Imp.cpp">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Imp_SAttack.cpp">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Imp_SDeath.cpp">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Imp_SIdle.cpp">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Imp_SRun.cpp">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Imp_SSpawn.cpp">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSPause.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\ShopItem.cpp">
+      <Filter>Source Files\GameObjects\ShopItem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateBase.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateMachine.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSIntro.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSMenu.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSEnd.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSGameplay.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Animation.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\HitBox.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GameButton.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSSetting.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Bullet.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\HitCircle.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\Collision.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\Random.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\ResourceManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\Singleton.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\WindowConnector.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\GameConnector.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\WavesManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\IMob.h">
+      <Filter>Source Files\GameObjects\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\IMState.h">
+      <Filter>Source Files\GameObjects\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Cobra.h">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Cobra_SAttack.h">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Cobra_SDeath.h">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Cobra_SIdle.h">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Cobra_SRun.h">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Weapon.h">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\IPlayer.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\IPState.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Player.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\PSIdle.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\PSRun.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\MiniMap.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\TiledMap.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\MobsManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\BulletsManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\WPSword.h">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Room.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Hall.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Tile.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Shoot.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\TileBox.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Mage.h">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Mage_SAttack.h">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Mage_SDeath.h">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Mage_SIdle.h">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Mage_SRun.h">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Cobra_SSpawn.h">
+      <Filter>Source Files\GameObjects\Mob\Cobra</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Mage_SSpawn.h">
+      <Filter>Source Files\GameObjects\Mob\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\UI.h">
+      <Filter>Source Files\GameObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\WPGun.h">
+      <Filter>Source Files\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSPlay.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSLobby.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\CoinsManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Coin.h">
+      <Filter>Source Files\GameObjects\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Exp.h">
+      <Filter>Source Files\GameObjects\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\ExpsManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Imp.h">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Imp_SAttack.h">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Imp_SDeath.h">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Imp_SIdle.h">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Imp_SRun.h">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Imp_SSpawn.h">
+      <Filter>Source Files\GameObjects\Mob\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSPause.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\ShopItem.h">
+      <Filter>Source Files\GameObjects\ShopItem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sources\GameManager\tint.frag">
+      <Filter>Source Files\GameManager</Filter>
+    </None>
+  </ItemGroup>
+</Project>

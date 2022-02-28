@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Knight.cpp" />
+    <ClCompile Include="Sources\Game.cpp" />
+    <ClCompile Include="Sources\GameManager\BulletsManager.cpp" />
+    <ClCompile Include="Sources\GameManager\CoinsManager.cpp" />
+    <ClCompile Include="Sources\GameManager\Collision.cpp" />
+    <ClCompile Include="Sources\GameManager\ExpsManager.cpp" />
+    <ClCompile Include="Sources\GameManager\GameConnector.cpp" />
+    <ClCompile Include="Sources\GameManager\MobsManager.cpp" />
+    <ClCompile Include="Sources\GameManager\Random.cpp" />
+    <ClCompile Include="Sources\GameManager\ResourceManager.cpp" />
+    <ClCompile Include="Sources\GameManager\WavesManager.cpp" />
+    <ClCompile Include="Sources\GameManager\WindowConnector.cpp" />
+    <ClCompile Include="Sources\GameObjects\Animation.cpp" />
+    <ClCompile Include="Sources\GameObjects\Bullet.cpp" />
+    <ClCompile Include="Sources\GameObjects\Cobra.cpp" />
+    <ClCompile Include="Sources\GameObjects\Cobra_SAttack.cpp" />
+    <ClCompile Include="Sources\GameObjects\Cobra_SDeath.cpp" />
+    <ClCompile Include="Sources\GameObjects\Cobra_SIdle.cpp" />
+    <ClCompile Include="Sources\GameObjects\Cobra_SRun.cpp" />
+    <ClCompile Include="Sources\GameObjects\Cobra_SSpawn.cpp" />
+    <ClCompile Include="Sources\GameObjects\Coin.cpp" />
+    <ClCompile Include="Sources\GameObjects\Exp.cpp" />
+    <ClCompile Include="Sources\GameObjects\Hall.cpp" />
+    <ClCompile Include="Sources\GameObjects\HitBox.cpp" />
+    <ClCompile Include="Sources\GameObjects\GameButton.cpp" />
+    <ClCompile Include="Sources\GameObjects\HitCircle.cpp" />
+    <ClCompile Include="Sources\GameObjects\IMob.cpp" />
+    <ClCompile Include="Sources\GameObjects\Imp.cpp" />
+    <ClCompile Include="Sources\GameObjects\Imp_SAttack.cpp" />
+    <ClCompile Include="Sources\GameObjects\Imp_SDeath.cpp" />
+    <ClCompile Include="Sources\GameObjects\Imp_SIdle.cpp" />
+    <ClCompile Include="Sources\GameObjects\Imp_SRun.cpp" />
+    <ClCompile Include="Sources\GameObjects\Imp_SSpawn.cpp" />
+    <ClCompile Include="Sources\GameObjects\Mage.cpp" />
+    <ClCompile Include="Sources\GameObjects\Mage_SAttack.cpp" />
+    <ClCompile Include="Sources\GameObjects\Mage_SDeath.cpp" />
+    <ClCompile Include="Sources\GameObjects\Mage_SIdle.cpp" />
+    <ClCompile Include="Sources\GameObjects\Mage_SRun.cpp" />
+    <ClCompile Include="Sources\GameObjects\Mage_SSpawn.cpp" />
+    <ClCompile Include="Sources\GameObjects\MiniMap.cpp" />
+    <ClCompile Include="Sources\GameObjects\Player.cpp" />
+    <ClCompile Include="Sources\GameObjects\PSIdle.cpp" />
+    <ClCompile Include="Sources\GameObjects\PSRun.cpp" />
+    <ClCompile Include="Sources\GameObjects\Room.cpp" />
+    <ClCompile Include="Sources\GameObjects\Shoot.cpp" />
+    <ClCompile Include="Sources\GameObjects\ShopItem.cpp" />
+    <ClCompile Include="Sources\GameObjects\Tile.cpp" />
+    <ClCompile Include="Sources\GameObjects\TileBox.cpp" />
+    <ClCompile Include="Sources\GameObjects\TiledMap.cpp" />
+    <ClCompile Include="Sources\GameObjects\UI.cpp" />
+    <ClCompile Include="Sources\GameObjects\Weapon.cpp" />
+    <ClCompile Include="Sources\GameObjects\WPGun.cpp" />
+    <ClCompile Include="Sources\GameObjects\WPSword.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GameStateBase.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GameStateMachine.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSEnd.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSGameplay.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSIntro.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSLobby.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSPause.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSPlay.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSMenu.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSSetting.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Game.h" />
+    <ClInclude Include="Sources\GameConfig.h" />
+    <ClInclude Include="Sources\GameManager\BulletsManager.h" />
+    <ClInclude Include="Sources\GameManager\CoinsManager.h" />
+    <ClInclude Include="Sources\GameManager\Collision.h" />
+    <ClInclude Include="Sources\GameManager\ExpsManager.h" />
+    <ClInclude Include="Sources\GameManager\GameConnector.h" />
+    <ClInclude Include="Sources\GameManager\MobsManager.h" />
+    <ClInclude Include="Sources\GameManager\Random.h" />
+    <ClInclude Include="Sources\GameManager\ResourceManager.h" />
+    <ClInclude Include="Sources\GameManager\Singleton.h" />
+    <ClInclude Include="Sources\GameManager\WavesManager.h" />
+    <ClInclude Include="Sources\GameManager\WindowConnector.h" />
+    <ClInclude Include="Sources\GameObjects\Animation.h" />
+    <ClInclude Include="Sources\GameObjects\Bullet.h" />
+    <ClInclude Include="Sources\GameObjects\Cobra.h" />
+    <ClInclude Include="Sources\GameObjects\Cobra_SAttack.h" />
+    <ClInclude Include="Sources\GameObjects\Cobra_SDeath.h" />
+    <ClInclude Include="Sources\GameObjects\Cobra_SIdle.h" />
+    <ClInclude Include="Sources\GameObjects\Cobra_SRun.h" />
+    <ClInclude Include="Sources\GameObjects\Cobra_SSpawn.h" />
+    <ClInclude Include="Sources\GameObjects\Coin.h" />
+    <ClInclude Include="Sources\GameObjects\Exp.h" />
+    <ClInclude Include="Sources\GameObjects\Hall.h" />
+    <ClInclude Include="Sources\GameObjects\HitCircle.h" />
+    <ClInclude Include="Sources\GameObjects\HitBox.h" />
+    <ClInclude Include="Sources\GameObjects\GameButton.h" />
+    <ClInclude Include="Sources\GameObjects\IMob.h" />
+    <ClInclude Include="Sources\GameObjects\Imp.h" />
+    <ClInclude Include="Sources\GameObjects\Imp_SAttack.h" />
+    <ClInclude Include="Sources\GameObjects\Imp_SDeath.h" />
+    <ClInclude Include="Sources\GameObjects\Imp_SIdle.h" />
+    <ClInclude Include="Sources\GameObjects\Imp_SRun.h" />
+    <ClInclude Include="Sources\GameObjects\Imp_SSpawn.h" />
+    <ClInclude Include="Sources\GameObjects\IMState.h" />
+    <ClInclude Include="Sources\GameObjects\IPlayer.h" />
+    <ClInclude Include="Sources\GameObjects\IPState.h" />
+    <ClInclude Include="Sources\GameObjects\Mage.h" />
+    <ClInclude Include="Sources\GameObjects\Mage_SAttack.h" />
+    <ClInclude Include="Sources\GameObjects\Mage_SDeath.h" />
+    <ClInclude Include="Sources\GameObjects\Mage_SIdle.h" />
+    <ClInclude Include="Sources\GameObjects\Mage_SRun.h" />
+    <ClInclude Include="Sources\GameObjects\Mage_SSpawn.h" />
+    <ClInclude Include="Sources\GameObjects\MiniMap.h" />
+    <ClInclude Include="Sources\GameObjects\Player.h" />
+    <ClInclude Include="Sources\GameObjects\PSIdle.h" />
+    <ClInclude Include="Sources\GameObjects\PSRun.h" />
+    <ClInclude Include="Sources\GameObjects\Room.h" />
+    <ClInclude Include="Sources\GameObjects\Shoot.h" />
+    <ClInclude Include="Sources\GameObjects\ShopItem.h" />
+    <ClInclude Include="Sources\GameObjects\Tile.h" />
+    <ClInclude Include="Sources\GameObjects\TileBox.h" />
+    <ClInclude Include="Sources\GameObjects\TiledMap.h" />
+    <ClInclude Include="Sources\GameObjects\UI.h" />
+    <ClInclude Include="Sources\GameObjects\Weapon.h" />
+    <ClInclude Include="Sources\GameObjects\WPGun.h" />
+    <ClInclude Include="Sources\GameObjects\WPSword.h" />
+    <ClInclude Include="Sources\GameStateManager\GameStateBase.h" />
+    <ClInclude Include="Sources\GameStateManager\GameStateMachine.h" />
+    <ClInclude Include="Sources\GameStateManager\GSEnd.h" />
+    <ClInclude Include="Sources\GameStateManager\GSGameplay.h" />
+    <ClInclude Include="Sources\GameStateManager\GSIntro.h" />
+    <ClInclude Include="Sources\GameStateManager\GSLobby.h" />
+    <ClInclude Include="Sources\GameStateManager\GSPause.h" />
+    <ClInclude Include="Sources\GameStateManager\GSPlay.h" />
+    <ClInclude Include="Sources\GameStateManager\GSMenu.h" />
+    <ClInclude Include="Sources\GameStateManager\GSSetting.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sources\GameManager\tint.frag" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ae4ef744-14b6-45ad-8686-31c89be0acd0}</ProjectGuid>
+    <RootNamespace>SFMLTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Knight</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\code\SFML\SFMLTest\sfml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\code\SFML\SFMLTest\sfml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\sfml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\sfml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\code\SFML\SFMLTest\sfml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\code\SFML\SFMLTest\sfml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\code\SFML\SFMLTest\sfml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\code\SFML\SFMLTest\sfml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

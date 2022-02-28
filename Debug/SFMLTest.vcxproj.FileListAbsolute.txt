@@ -1,0 +1,2 @@
+D:\code\SFML\SFMLTest\Debug\Knight.exe
+D:\code\SFML\SFMLTest\Debug\Knight.pdb

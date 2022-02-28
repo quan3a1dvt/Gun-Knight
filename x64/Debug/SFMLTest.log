@@ -1,0 +1,71 @@
+﻿  Knight.cpp
+  Game.cpp
+  ResourceManager.cpp
+  WindowConnector.cpp
+  Animation.cpp
+  Cobra_SIdle.cpp
+  Cobra_SRun.cpp
+  HitBox.cpp
+  GameButton.cpp
+  Layer.cpp
+  Player.cpp
+  PSIdle.cpp
+D:\code\SFML\SFMLTest\Sources\GameObjects\PSIdle.cpp(39,18): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  PSRun.cpp
+D:\code\SFML\SFMLTest\Sources\GameObjects\PSRun.cpp(37,18): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Cobra.cpp
+  WPSword.cpp
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(28,60): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(31,175): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(31,103): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(33,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(61,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(66,88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(70,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(78,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(82,81): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Tiled.cpp
+  TiledMap.cpp
+  TLStatic.cpp
+  Weapon.cpp
+  GameStateBase.cpp
+  Generating Code...
+  Compiling...
+  GameStateMachine.cpp
+  GSEnd.cpp
+  GSGameplay.cpp
+  GSIntro.cpp
+  GSLobby.cpp
+  GSMenu.cpp
+  GSSetting.cpp
+D:\code\SFML\SFMLTest\Sources\GameStateManager\GSSetting.cpp(47,27): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Generating Code...
+sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

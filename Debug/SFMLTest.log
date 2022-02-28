@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFMLTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  UI.cpp
+D:\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(19,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  SFMLTest.vcxproj -> D:\code\SFML\SFMLTest\Debug\Knight.exe

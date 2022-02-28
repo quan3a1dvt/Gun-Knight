@@ -1,0 +1,570 @@
+﻿  Knight.cpp
+  Game.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\Game.cpp(16,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  BulletsManager.cpp
+  CoinsManager.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\CoinsManager.cpp(17,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\CoinsManager.cpp(24,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\CoinsManager.cpp(31,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\CoinsManager.cpp(38,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\CoinsManager.cpp(40,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\CoinsManager.cpp(40,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\CoinsManager.cpp(40,88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\CoinsManager.cpp(40,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Collision.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(144,15): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(145,16): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(147,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(147,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(148,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(148,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(223,42): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(224,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(224,42): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(225,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(415,70): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\Collision.cpp(416,33): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  ExpsManager.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\ExpsManager.cpp(17,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\ExpsManager.cpp(24,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\ExpsManager.cpp(32,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\ExpsManager.cpp(39,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\ExpsManager.cpp(41,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\ExpsManager.cpp(41,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\ExpsManager.cpp(41,88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\ExpsManager.cpp(41,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  GameConnector.cpp
+  MobsManager.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\MobsManager.cpp(19,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\MobsManager.cpp(26,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\MobsManager.cpp(49,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameManager\MobsManager.cpp(55,3): warning C4018: '<=': signed/unsigned mismatch
+  Random.cpp
+  ResourceManager.cpp
+  WavesManager.cpp
+  WindowConnector.cpp
+  Animation.cpp
+  Bullet.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(48,62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(50,62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(80,63): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(82,63): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(255,150): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(256,150): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(257,148): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(258,148): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(261,70): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(262,70): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(263,68): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Bullet.cpp(264,68): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Cobra.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(20,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(20,40): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(98,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(100,34): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(151,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(182,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(219,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(261,3): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(271,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(271,36): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(284,39): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(284,60): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(284,143): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Cobra.cpp(284,164): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Cobra_SAttack.cpp
+  Cobra_SDeath.cpp
+  Cobra_SIdle.cpp
+  Cobra_SRun.cpp
+  Cobra_SSpawn.cpp
+  Compiling...
+  Coin.cpp
+  Exp.cpp
+  Hall.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Hall.cpp(63,39): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Hall.cpp(63,33): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  HitBox.cpp
+  GameButton.cpp
+  HitCircle.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\HitCircle.cpp(3,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  IMob.cpp
+  Imp.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(20,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(20,40): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(31,31): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(34,62): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(34,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(118,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(141,32): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(149,66): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(196,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(213,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(250,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(294,3): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(304,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(304,36): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(317,39): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(317,60): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(317,143): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp.cpp(317,164): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Imp_SAttack.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Imp_SAttack.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Imp_SDeath.cpp
+  Imp_SIdle.cpp
+  Imp_SRun.cpp
+  Imp_SSpawn.cpp
+  Mage.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(20,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(20,40): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(31,31): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(118,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(141,32): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(149,66): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(194,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(225,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(262,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(304,3): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(314,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(314,36): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(327,39): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(327,60): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(327,143): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage.cpp(327,164): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Mage_SAttack.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Mage_SAttack.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Mage_SDeath.cpp
+  Mage_SIdle.cpp
+  Mage_SRun.cpp
+  Mage_SSpawn.cpp
+  MiniMap.cpp
+  Compiling...
+  Player.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(19,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(22,55): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(22,39): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(74,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(139,3): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(146,3): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(192,26): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(192,47): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(192,117): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(192,138): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(196,10): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Player.cpp(197,10): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  PSIdle.cpp
+  PSRun.cpp
+  Room.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Room.cpp(28,3): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Room.cpp(44,3): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Room.cpp(52,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Room.cpp(60,39): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\Room.cpp(60,33): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Shoot.cpp
+  ShopItem.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\ShopItem.cpp(8,39): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\ShopItem.cpp(8,33): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\ShopItem.cpp(110,37): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Tile.cpp
+  TileBox.cpp
+  TiledMap.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\TiledMap.cpp(96,21): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\TiledMap.cpp(295,2): warning C4018: '<=': signed/unsigned mismatch
+  UI.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(26,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(34,2): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(45,29): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(59,30): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(67,92): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(67,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(74,26): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(95,35): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\UI.cpp(110,34): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Weapon.cpp
+  WPGun.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(54,80): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(57,68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(65,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(68,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(244,100): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(244,59): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(259,100): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(259,59): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(274,100): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(274,59): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(288,100): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPGun.cpp(288,59): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  WPSword.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(22,60): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(25,175): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(25,103): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(27,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(47,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(52,88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(56,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(64,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameObjects\WPSword.cpp(68,81): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  GameStateBase.cpp
+  GameStateMachine.cpp
+  GSEnd.cpp
+  GSGameplay.cpp
+  GSIntro.cpp
+  GSLobby.cpp
+  GSPause.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameStateManager\GSPause.cpp(82,27): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Compiling...
+  GSPlay.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameStateManager\GSPlay.cpp(57,96): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameStateManager\GSPlay.cpp(57,56): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameStateManager\GSPlay.cpp(68,108): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameStateManager\GSPlay.cpp(68,64): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameStateManager\GSPlay.cpp(144,26): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  GSMenu.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameStateManager\GSMenu.cpp(90,27): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  GSSetting.cpp
+C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Sources\GameStateManager\GSSetting.cpp(47,27): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Generating code
+  1610 of 2591 functions (62.1%) were compiled, the rest were copied from previous compilation.
+    12 functions were new in current compilation
+    36 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SFMLTest.vcxproj -> C:\Users\QuanDang\Downloads\code\SFML\SFMLTest\Release\Knight.exe
